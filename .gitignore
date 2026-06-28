@@ -1,0 +1,29 @@
+# Virtual Environment
+venv/
+.venv/
+
+# Environment Variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# ChromaDB
+chroma/
+chromadb/
+*.sqlite3
+
+# Logs
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
