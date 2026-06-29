@@ -9,3 +9,8 @@ pypdf
 python-dotenv
 langchain-chroma
 chromadb
+
+fastapi
+uvicorn
+pydantic
+

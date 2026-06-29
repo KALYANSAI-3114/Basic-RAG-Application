@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RAG Tutor</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <main class="app-shell">
+    <section class="hero">
+      <p class="eyebrow">Machine Learning Study Helper</p>
+      <h1>Ask a question about Machine Learning.</h1>
+      <p class="subtext">Type your query below Search.</p>
+    </section>
+
+    <section class="card">
+      <label class="label" for="queryInput">Your question</label>
+      <div class="input-row">
+        <input id="queryInput" type="text" placeholder="e.g. What is overfitting?" autocomplete="off">
+        <button id="searchButton" type="button">Search</button>
+      </div>
+
+      <div class="status-row">
+        <span id="statusText">Ready</span>
+      </div>
+
+      <div class="answer-box">
+        <h2>Answer</h2>
+        <p id="answerText">Your response will appear here.</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
