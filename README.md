@@ -1,4 +1,4 @@
-# RAG Tutor
+# ML Tutor
 
 Simple machine learning Q&A app built with FastAPI and a small HTML frontend.
 
